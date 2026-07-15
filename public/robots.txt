@@ -1,0 +1,6 @@
+# robots.txt — update with correct sitemap URL before launch
+User-agent: *
+Allow: /
+
+# TODO: Add sitemap reference before launch
+# Sitemap: https://www.aurevia.com/sitemap.xml

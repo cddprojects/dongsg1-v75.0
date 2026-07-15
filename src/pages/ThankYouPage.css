@@ -1,0 +1,124 @@
+.thankyou {
+  min-height: 100svh;
+  padding-top: 80px;
+  background: var(--color-bg);
+  display: flex;
+  align-items: center;
+}
+
+.thankyou__inner {
+  display: flex;
+  justify-content: center;
+  padding-block: var(--space-20);
+}
+
+.thankyou__card {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-16) var(--space-12);
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-5);
+  text-align: center;
+  box-shadow: var(--shadow-md);
+}
+
+/* Icon */
+.thankyou__icon {
+  color: var(--color-success);
+  margin-bottom: var(--space-2);
+}
+
+/* Heading */
+.thankyou__heading {
+  font-size: var(--text-3xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-navy);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+/* Body */
+.thankyou__body {
+  font-size: var(--text-lg);
+  color: var(--color-text-body);
+  line-height: 1.7;
+  max-width: 48ch;
+}
+
+/* Note */
+.thankyou__note {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  max-width: 48ch;
+  padding: var(--space-4) var(--space-5);
+  background: var(--color-bg);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+}
+
+/* Categories summary */
+.thankyou__categories {
+  width: 100%;
+  background: var(--color-bg);
+  border-radius: var(--radius-md);
+  padding: var(--space-5) var(--space-6);
+  text-align: left;
+}
+
+.thankyou__categories-label {
+  font-size: var(--text-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-navy);
+  margin-bottom: var(--space-3);
+}
+
+.thankyou__categories-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.thankyou__category-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+  color: var(--color-text-body);
+}
+
+.thankyou__category-item svg {
+  color: var(--color-success);
+  flex-shrink: 0;
+}
+
+/* Actions */
+.thankyou__actions {
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: var(--space-2);
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .thankyou__card {
+    padding: var(--space-10) var(--space-6);
+    border-radius: var(--radius-lg);
+  }
+
+  .thankyou__actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .thankyou__actions .btn {
+    justify-content: center;
+  }
+}

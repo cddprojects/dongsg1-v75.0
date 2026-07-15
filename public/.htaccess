@@ -1,0 +1,14 @@
+# Aurevia SG — Apache SPA routing for Plesk
+# Routes all requests to index.html so React Router handles the URL
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Serve existing files and directories directly
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+
+  # Everything else goes to index.html
+  RewriteRule ^ index.html [L]
+</IfModule>
