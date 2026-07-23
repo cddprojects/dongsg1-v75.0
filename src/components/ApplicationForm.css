@@ -26,6 +26,24 @@
   line-height: 1.65;
 }
 
+/* ChatFromForms embed */
+.appform__embed {
+  width: 100%;
+  max-width: 800px;
+  min-width: 0;
+  margin-inline: auto;
+}
+
+.appform__embed iframe,
+#QBWpFormIFrame_1 {
+  display: block;
+  width: 100% !important;
+  max-width: 100%;
+  border: 0;
+  min-height: 200px;
+  transition: height 0.15s ease-out;
+}
+
 /* Error banner */
 .appform__error-banner {
   display: flex;

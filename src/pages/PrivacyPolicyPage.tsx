@@ -1,4 +1,4 @@
-import './LegalPage.css';
+﻿import './LegalPage.css';
 
 export function PrivacyPolicyPage() {
   const effectiveDate = '1 June 2026';
@@ -19,13 +19,13 @@ export function PrivacyPolicyPage() {
           <section aria-labelledby="pp-intro">
             <h2 id="pp-intro">1. About This Policy</h2>
             <p>
-              This Privacy Policy describes how <strong>SKILLS LINK LTD</strong>, a company incorporated in England and Wales, operating the Flexi Path platform (<strong>"Flexi Path"</strong>, <strong>"we"</strong>,{' '}
+              This Privacy Policy describes how <strong>SKILLS LINK LTD</strong>, a company incorporated in England and Wales, operating the Role Browse platform (<strong>"Role Browse"</strong>, <strong>"we"</strong>,{' '}
               <strong>"us"</strong>, <strong>"our"</strong>), collects, uses, discloses and manages
               personal data in accordance with the Singapore Personal Data Protection Act 2012
               (No. 26 of 2012) (<strong>"PDPA"</strong>) and its subsidiary legislation.
             </p>
             <p>
-              This policy applies to personal data collected through the Flexi Path website and the
+              This policy applies to personal data collected through the Role Browse website and the
               employer partner role category registration form located at this website.
             </p>
             <p>
@@ -109,7 +109,7 @@ export function PrivacyPolicyPage() {
                 <strong>Employer partners:</strong> Where a possible fit is identified and subject
                 to your consent, your personal data may be shared with a relevant employer partner
                 for their independent review. Employer partners are independent organisations.
-                Flexi Path is not responsible for the data handling practices of employer partners
+                Role Browse is not responsible for the data handling practices of employer partners
                 once personal data has been shared with them pursuant to your consent. You should
                 review the privacy policies of any employer partner who contacts you.
               </li>
@@ -219,8 +219,8 @@ export function PrivacyPolicyPage() {
               representative:
             </p>
             <p>
-              <strong>Data Protection Contact — Flexi Path</strong><br />
-              Email: <a href="mailto:privacy@flexipath.com">privacy@flexipath.com</a><br />
+              <strong>Data Protection Contact — Role Browse</strong><br />
+              Email: <a href="mailto:privacy@rolebrowse.com">privacy@rolebrowse.com</a><br />
               SKILLS LINK LTD<br />
               681 Hougang Avenue 8, Singapore 530681
             </p>

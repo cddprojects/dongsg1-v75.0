@@ -1,4 +1,4 @@
-import './LegalPage.css';
+﻿import './LegalPage.css';
 
 export function TermsOfUsePage() {
   const effectiveDate = '1 June 2026';
@@ -19,9 +19,9 @@ export function TermsOfUsePage() {
           <section aria-labelledby="tou-intro">
             <h2 id="tou-intro">1. About These Terms</h2>
             <p>
-              These Terms of Use govern your access to and use of the Flexi Path website and
+              These Terms of Use govern your access to and use of the Role Browse website and
               employer partner role category registration service operated by{' '}
-              <strong>SKILLS LINK LTD</strong>, a company incorporated in England and Wales, (<strong>"Flexi Path"</strong>, <strong>"we"</strong>, <strong>"us"</strong>, <strong>"our"</strong>).
+              <strong>SKILLS LINK LTD</strong>, a company incorporated in England and Wales, (<strong>"Role Browse"</strong>, <strong>"we"</strong>, <strong>"us"</strong>, <strong>"our"</strong>).
             </p>
             <p>
               By accessing this website or submitting a registration form, you agree to be bound
@@ -31,20 +31,20 @@ export function TermsOfUsePage() {
             <p>
               These Terms of Use should be read together with our{' '}
               <a href="/privacy-policy">Privacy Policy</a>, which forms part of the agreement
-              between you and Flexi Path.
+              between you and Role Browse.
             </p>
           </section>
 
           <section aria-labelledby="tou-service">
             <h2 id="tou-service">2. Nature of the Service</h2>
             <p>
-              Flexi Path provides a role interest registration service. This website allows Singapore
+              Role Browse provides a role interest registration service. This website allows Singapore
               Citizens and Permanent Residents to indicate interest in broad employer partner role
               categories for possible review and referral.
             </p>
             <p>
-              <strong>Flexi Path is not an employment agency in respect of every role associated
-              with this platform.</strong> Flexi Path collects role interest information and may, where
+              <strong>Role Browse is not an employment agency in respect of every role associated
+              with this platform.</strong> Role Browse collects role interest information and may, where
               appropriate and subject to your consent, refer your profile to relevant employer
               partners for their independent consideration.
             </p>
@@ -64,7 +64,7 @@ export function TermsOfUsePage() {
             <ul className="legal-page__list">
               <li>A job offer or employment opportunity</li>
               <li>An interview invitation</li>
-                <li>Contact or response from Flexi Path or any employer partner</li>
+                <li>Contact or response from Role Browse or any employer partner</li>
               <li>Placement in any role</li>
               <li>Income of any kind</li>
               <li>Review or consideration of your profile</li>
@@ -72,7 +72,7 @@ export function TermsOfUsePage() {
             </ul>
             <p>
               Outcomes depend on employer partner availability, role category requirements,
-              profile suitability and other factors outside Flexi Path's control. Flexi Path makes no
+              profile suitability and other factors outside Role Browse's control. Role Browse makes no
               representation or warranty regarding the likelihood of any outcome following
               registration.
             </p>
@@ -87,7 +87,7 @@ export function TermsOfUsePage() {
             </p>
             <p>
               By submitting the registration form, you confirm that the work eligibility status
-              you have selected accurately reflects your current status. Flexi Path reserves the
+              you have selected accurately reflects your current status. Role Browse reserves the
               right to disqualify registrations where inaccurate eligibility information is provided.
             </p>
           </section>
@@ -96,14 +96,14 @@ export function TermsOfUsePage() {
             <h2 id="tou-fees">5. No Fees to Candidates</h2>
             <p>
               There is no fee payable by candidates to submit a registration form or to use this
-              service. Flexi Path will never charge candidates a fee in connection with this
+              service. Role Browse will never charge candidates a fee in connection with this
               registration process.
             </p>
             <p>
               If you are asked to pay any fee in connection with this registration or in
               connection with any opportunity arising from this registration, please do not
               proceed and contact us immediately at{' '}
-              <a href="mailto:hello@flexipath.com">hello@flexipath.com</a>.
+              <a href="mailto:hello@rolebrowse.com">hello@rolebrowse.com</a>.
             </p>
           </section>
 
@@ -114,7 +114,7 @@ export function TermsOfUsePage() {
               provided is accurate, complete and not misleading to the best of your knowledge.
             </p>
             <p>
-              Flexi Path reserves the right to disqualify registrations where information provided
+              Role Browse reserves the right to disqualify registrations where information provided
               is found to be inaccurate, misleading or fraudulent.
             </p>
           </section>
@@ -138,7 +138,7 @@ export function TermsOfUsePage() {
             <h2 id="tou-ip">8. Intellectual Property</h2>
             <p>
               All content on this website, including but not limited to text, design, layout,
-              graphics, brand names and trademarks, is the property of Flexi Path or its licensors
+              graphics, brand names and trademarks, is the property of Role Browse or its licensors
               and is protected by applicable intellectual property laws.
             </p>
             <p>
@@ -151,13 +151,13 @@ export function TermsOfUsePage() {
           <section aria-labelledby="tou-limitation">
             <h2 id="tou-limitation">9. Limitation of Liability</h2>
             <p>
-              To the fullest extent permitted by applicable law, Flexi Path shall not be liable for
+              To the fullest extent permitted by applicable law, Role Browse shall not be liable for
               any direct, indirect, incidental, special, consequential or punitive damages arising
               from or in connection with your use of this website, your submission of a registration
               form, or any outcome or absence of outcome following your registration.
             </p>
             <p>
-              Flexi Path does not warrant that this website will be available at all times, free from
+              Role Browse does not warrant that this website will be available at all times, free from
               errors or free from viruses or other harmful components.
             </p>
           </section>
@@ -166,7 +166,7 @@ export function TermsOfUsePage() {
             <h2 id="tou-links">10. Third Party Links</h2>
             <p>
               This website may contain links to third party websites. These links are provided for
-              convenience only. Flexi Path does not endorse, control or take responsibility for the
+              convenience only. Role Browse does not endorse, control or take responsibility for the
               content, privacy practices or terms of any third party website. Your use of any
               third party website is at your own risk.
             </p>
@@ -197,8 +197,8 @@ export function TermsOfUsePage() {
               For enquiries regarding these Terms of Use, please contact us at:
             </p>
             <p>
-              <strong>Flexi Path</strong><br />
-              Email: <a href="mailto:hello@flexipath.com">hello@flexipath.com</a><br />
+              <strong>Role Browse</strong><br />
+              Email: <a href="mailto:hello@rolebrowse.com">hello@rolebrowse.com</a><br />
               SKILLS LINK LTD<br />
               681 Hougang Avenue 8, Singapore 530681
             </p>

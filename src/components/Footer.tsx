@@ -1,4 +1,4 @@
-import { footer, siteConfig } from '../data/content';
+﻿import { footer, siteConfig } from '../data/content';
 import './Footer.css';
 
 export function Footer() {
@@ -24,8 +24,8 @@ export function Footer() {
         <div className="footer__main">
           {/* Brand column */}
           <div className="footer__brand">
-            <a href="/" className="footer__logo" aria-label="Flexi Path home">
-              <span className="footer__logo-word">Flexi Path</span>
+            <a href="/" className="footer__logo" aria-label="Role Browse home">
+              <span className="footer__logo-word">Role Browse</span>
               <span className="footer__logo-tag">Singapore</span>
             </a>
             <p className="footer__description">{footer.description}</p>
@@ -66,7 +66,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="footer__bottom">
           <p className="footer__copyright">
-            © {year} Flexi Path. Operated by SKILLS LINK LTD.
+            © {year} Role Browse. Operated by SKILLS LINK LTD.
           </p>
           <div className="footer__legal-row">
             {footer.legalLinks.map((link, i) => (

@@ -1,25 +1,25 @@
-/* ============================================================
-   FLEXI PATH SINGAPORE — Content Data File
+﻿/* ============================================================
+   ROLE BROWSE SINGAPORE — Content Data File
    All editable page content lives here.
    Update this file to change copy, categories, FAQs, etc.
    ============================================================ */
 
 export const siteConfig = {
-  brandName: 'Flexi Path',
+  brandName: 'Role Browse',
   tagline: 'Employer-partner opportunity registration',
   market: 'Singapore',
   language: 'en',
-  contactEmail: 'hello@flexipath.com', // TODO: replace with actual contact email before launch
+  contactEmail: 'hello@rolebrowse.com', // TODO: replace with actual contact email before launch
   privacyPolicyUrl: '/privacy-policy',
   termsOfUseUrl: '/terms-of-use',
-  canonicalUrl: 'https://www.flexipath.com/flexi-path-singapore-employer-partner-role-categories', // TODO: replace with live URL
+  canonicalUrl: 'https://www.rolebrowse.com/rolebrowse-singapore-employer-partner-role-categories', // TODO: replace with live URL
 };
 
 export const seoMeta = {
-  title: 'Flexi Path Singapore | Part-Time & Flexible Role Categories',
+  title: 'Role Browse Singapore | Part-Time & Flexible Role Categories',
   description:
     'Looking for part time or flexible work in Singapore? Share a few basic details and we\'ll review your profile and follow up if there\'s a possible fit. No job or interview is guaranteed.',
-  ogTitle: 'Flexi Path Singapore | Part-Time & Flexible Role Categories',
+  ogTitle: 'Role Browse Singapore | Part-Time & Flexible Role Categories',
   ogDescription:
     'Looking for part time or flexible work in Singapore? Share your basic details. We will review your profile and be in touch if there is a fit.',
   ogImage: '/og-image.png',
@@ -51,7 +51,7 @@ export const intro = {
   eyebrow: 'About Us',
   heading: 'Work that fits around your life',
   lead:
-    'Flexi Path focuses on part time, shift based and flexible role categories. Register your basic details once. We will do the matching and follow up if there is a possible fit.',
+    'Role Browse focuses on part time, shift based and flexible role categories. Register your basic details once. We will do the matching and follow up if there is a possible fit.',
   points: [
     {
       heading: 'Work that fits your schedule',
@@ -63,7 +63,7 @@ export const intro = {
     },
     {
       heading: 'Employer partners decide the details',
-      body: 'Each employer partner sets their own requirements, pay, shift arrangements and timelines. They decide who to follow up with. Flexi Path is not the direct employer.',
+      body: 'Each employer partner sets their own requirements, pay, shift arrangements and timelines. They decide who to follow up with. Role Browse is not the direct employer.',
     },
   ],
   transparencyStatement:
@@ -171,7 +171,7 @@ export const processSteps = [
   {
     number: '02',
     heading: 'We review your profile',
-    body: 'Flexi Path checks your profile against available employer partner categories. Not every profile will match an available category at the time of review.',
+    body: 'Role Browse checks your profile against available employer partner categories. Not every profile will match an available category at the time of review.',
   },
   {
     number: '03',
@@ -221,9 +221,9 @@ export const trustPoints = [
 export const faqs = [
   {
     id: 'faq-1',
-    question: 'Is Flexi Path the employer?',
+    question: 'Is Role Browse the employer?',
     answer:
-      'Not necessarily. Flexi Path collects your role interest and, where there\'s a possible fit, may refer your details to relevant employer partners, but employer partners are independent organisations that make their own hiring decisions. Flexi Path is not automatically the direct employer for every opportunity.',
+      'Not necessarily. Role Browse collects your role interest and, where there\'s a possible fit, may refer your details to relevant employer partners, but employer partners are independent organisations that make their own hiring decisions. Role Browse is not automatically the direct employer for every opportunity.',
   },
   {
     id: 'faq-2',
@@ -247,7 +247,7 @@ export const faqs = [
     id: 'faq-5',
     question: 'Can non-Singapore Citizens apply?',
     answer:
-      'At this time, Flexi Path\'s employer partner categories in Singapore are open to Singapore Citizens and Permanent Residents only. Work pass holders, including Employment Pass, S Pass and Work Permit holders, are not currently eligible to register through this platform. This may expand in future. If you are a Singapore Citizen or Permanent Resident, you are welcome to register your interest.',
+      'At this time, Role Browse\'s employer partner categories in Singapore are open to Singapore Citizens and Permanent Residents only. Work pass holders, including Employment Pass, S Pass and Work Permit holders, are not currently eligible to register through this platform. This may expand in future. If you are a Singapore Citizen or Permanent Resident, you are welcome to register your interest.',
   },
   {
     id: 'faq-6',
@@ -257,7 +257,7 @@ export const faqs = [
   },
   {
     id: 'faq-7',
-    question: 'Does Flexi Path charge applicants?',
+    question: 'Does Role Browse charge applicants?',
     answer:
       'No. This service is free. If anyone asks you to pay in connection with this application, please stop and contact us straight away.',
   },
@@ -278,9 +278,9 @@ export const finalCta = {
 
 export const footer = {
   description:
-    'Flexi Path focuses on part time, flexible and shift based role categories in Singapore. We connect candidate profiles with relevant employer partners. No job or interview is guaranteed.',
+    'Role Browse focuses on part time, flexible and shift based role categories in Singapore. We connect candidate profiles with relevant employer partners. No job or interview is guaranteed.',
   disclaimer:
-    'Flexi Path is not the direct employer for every opportunity. Employer partners make their own hiring decisions. Submission does not guarantee a job, interview, placement or income.',
+    'Role Browse is not the direct employer for every opportunity. Employer partners make their own hiring decisions. Submission does not guarantee a job, interview, placement or income.',
   links: [
     { label: 'Role Categories', href: '#role-categories' },
     { label: 'How It Works', href: '#how-it-works' },

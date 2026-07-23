@@ -1,4 +1,4 @@
-import { processSteps } from '../data/content';
+﻿import { processSteps } from '../data/content';
 import { useReveal } from '../hooks/useReveal';
 import './ProcessTimeline.css';
 
@@ -42,7 +42,7 @@ export function ProcessTimeline() {
         <div className="process__note">
           <p className="disclaimer">
             Not every profile will result in a referral or follow-up. Employer partners make their
-            own independent decisions. Flexi Path is not the direct employer for referred opportunities.
+            own independent decisions. Role Browse is not the direct employer for referred opportunities.
           </p>
         </div>
       </div>

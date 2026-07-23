@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+﻿import { useEffect, useRef } from 'react';
 // import { useNavigate } from 'react-router-dom';
 // import { AlertCircle, Loader, Info } from 'lucide-react';
 import { formConfig /*, roleCategories, siteConfig*/ } from '../data/content';
@@ -7,6 +7,31 @@ import './ApplicationForm.css';
 
 interface Props {
   preselectedCategories: string[];
+}
+
+const FORM_DOMAIN = 'https://chatfromforms.com';
+const FORM_ID = 'dong-sg10-singapore10';
+const FORM_HEIGHT_BUFFER = 5;
+
+type EmbedMessage = {
+  type?: string;
+  data?: {
+    height?: number;
+    url?: string;
+    new_tab?: boolean;
+  };
+};
+
+function parseEmbedMessage(value: unknown): EmbedMessage | null {
+  if (typeof value === 'string') {
+    try {
+      return JSON.parse(value) as EmbedMessage;
+    } catch {
+      return null;
+    }
+  }
+
+  return value && typeof value === 'object' ? value as EmbedMessage : null;
 }
 
 // ── ORIGINAL FORM LOGIC (hidden, kept for reference) ─────────────────────────
@@ -91,7 +116,7 @@ export function ApplicationForm(_: Props) {
   //   setStatus('submitting');
   //   try {
   //     await new Promise<void>((resolve) => setTimeout(resolve, 1200));
-  //     sessionStorage.setItem('flexipath_submitted_categories', JSON.stringify(form.roleCategories));
+  //     sessionStorage.setItem('rolebrowse_submitted_categories', JSON.stringify(form.roleCategories));
   //     navigate('/thank-you');
   //   } catch {
   //     setStatus('error');
@@ -100,31 +125,33 @@ export function ApplicationForm(_: Props) {
   // const hasErrors = Object.keys(errors).length > 0;
 
   // ── EMBED STATE ───────────────────────────────────────────────────────────
-  const iframeRef = useRef<HTMLIFrameElement>(null);
-  const [iframeSrc, setIframeSrc] = useState('');
-
-  useEffect(() => {
-    const qs = new URLSearchParams({
-      origin: 'www.flexi-path.com',
-      protocol: window.location.protocol,
-      channel: '',
-      referral: window.location.href,
-    });
-    setIframeSrc(`https://chatfromforms.com/form/dong-sg10-singapore10/embed?${qs}`);
-  }, []);
+  const formMountRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handler = (e: MessageEvent) => {
-      if (e.origin !== 'https://chatfromforms.com') return;
-      const { type, data } = e.data as { type: string; data: { height?: number; url?: string; new_tab?: boolean } };
-      if (type === 'setIFrameHeight' && iframeRef.current && data.height) {
-        iframeRef.current.style.height = `${data.height + 5}px`;
+      if (e.origin !== FORM_DOMAIN) return;
+
+      const message = parseEmbedMessage(e.data);
+      if (!message?.type) return;
+
+      if (message.type === 'setIFrameHeight') {
+        const height = message.data?.height;
+        if (typeof height !== 'number' || !Number.isFinite(height) || height <= 0) return;
+
+        const iframe = formMountRef.current?.querySelector('iframe');
+        if (!iframe) return;
+
+        iframe.style.height = `${Math.ceil(height) + FORM_HEIGHT_BUFFER}px`;
+        iframe.style.minHeight = '0';
       }
-      if (type === 'formSubmitted' && data.url) {
-        if (data.new_tab) window.open(data.url);
-        else window.location.href = data.url;
+
+      const { url, new_tab: openInNewTab } = message.data ?? {};
+      if (message.type === 'formSubmitted' && url) {
+        if (openInNewTab) window.open(url, '_blank', 'noopener,noreferrer');
+        else window.location.href = url;
       }
     };
+
     window.addEventListener('message', handler);
     return () => window.removeEventListener('message', handler);
   }, []);
@@ -142,16 +169,13 @@ export function ApplicationForm(_: Props) {
         </div>
 
         {/* ── EMBED FORM ───────────────────────────────────────────────────── */}
-        {iframeSrc && (
-          <iframe
-            ref={iframeRef}
-            src={iframeSrc}
-            frameBorder={0}
-            scrolling="no"
-            style={{ width: '100%', maxWidth: '800px', height: '1000px', display: 'block', margin: '0 auto' }}
-            title="Registration Form"
-          />
-        )}
+        <div
+          ref={formMountRef}
+          id="cdd-form-mount"
+          className="appform__embed"
+          data-cddform={FORM_ID}
+          data-origin="www.rolebrowse.com"
+        />
 
         {/* ── ORIGINAL FORM (hidden, kept for reference) ───────────────────
         {hasErrors && (

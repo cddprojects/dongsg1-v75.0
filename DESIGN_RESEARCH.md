@@ -1,4 +1,4 @@
-# Design Research — Flexi Path Singapore Landing Page
+﻿# Design Research — Role Browse Singapore Landing Page
 
 ## Overview
 
@@ -60,7 +60,7 @@ Research conducted to identify effective design patterns for recruitment-service
 
 ---
 
-## 3. Final Design Direction Selected for Flexi Path
+## 3. Final Design Direction Selected for Role Browse
 
 **Direction: "Editorial Clarity"**
 
@@ -96,4 +96,4 @@ The editorial-clarity direction is appropriate because:
 
 ## 5. Originality Confirmation
 
-This design is original. No Envato template, ThemeForest theme, Framer template, Webflow template, or existing recruitment website layout has been copied. Design patterns have been studied for inspiration only. All component architecture, colour system, typography choices, layout proportions, spacing, and visual treatments have been designed from first principles for Flexi Path's specific use case, market, and compliance requirements.
+This design is original. No Envato template, ThemeForest theme, Framer template, Webflow template, or existing recruitment website layout has been copied. Design patterns have been studied for inspiration only. All component architecture, colour system, typography choices, layout proportions, spacing, and visual treatments have been designed from first principles for Role Browse's specific use case, market, and compliance requirements.

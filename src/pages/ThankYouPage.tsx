@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+﻿import { useEffect, useState } from 'react';
 import { CheckCircle, ArrowLeft, Search } from 'lucide-react';
 import { roleCategories } from '../data/content';
 import './ThankYouPage.css';
@@ -8,7 +8,7 @@ export function ThankYouPage() {
 
   useEffect(() => {
     // Read submitted categories from sessionStorage (set by the form on submission)
-    const stored = sessionStorage.getItem('flexipath_submitted_categories');
+    const stored = sessionStorage.getItem('rolebrowse_submitted_categories');
     if (stored) {
       const ids: string[] = JSON.parse(stored);
       const labels = ids.map(

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { Plus, Minus } from 'lucide-react';
 import { faqs } from '../data/content';
 import { useReveal } from '../hooks/useReveal';
@@ -23,7 +23,7 @@ export function FAQAccordion() {
             Frequently asked questions
           </h2>
           <p className="section-subheading faq__subheading">
-            Clear answers to common questions about Flexi Path and this application process.
+            Clear answers to common questions about Role Browse and this application process.
           </p>
         </div>
 
