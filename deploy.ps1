@@ -1,5 +1,5 @@
-# Run this to build and push to GitHub.
-# Then click Deploy in Plesk > Git to go live.
+# Run this to build and push the production dist/ directory to GitHub.
+# Plesk must run: sh plesk-deploy.sh
 
 $env:PATH = "C:\Users\CDD_Tech\.config\herd\bin\nvm\v22.23.1;" + $env:PATH
 
@@ -20,3 +20,4 @@ git push origin main
 
 Write-Host ""
 Write-Host "Done! Now click Deploy in Plesk > Git." -ForegroundColor Green
+Write-Host "Required Plesk deployment action: sh plesk-deploy.sh" -ForegroundColor Yellow
