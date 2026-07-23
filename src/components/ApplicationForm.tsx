@@ -125,11 +125,23 @@ export function ApplicationForm(_: Props) {
   // const hasErrors = Object.keys(errors).length > 0;
 
   // ── EMBED STATE ───────────────────────────────────────────────────────────
-  const formMountRef = useRef<HTMLDivElement>(null);
+  const iframeRef = useRef<HTMLIFrameElement>(null);
+  const pageQuery = new URLSearchParams(window.location.search);
+  const channel = pageQuery.get('gclid')
+    ? 'google_ad'
+    : pageQuery.get('utm_source') ?? '';
+  const iframeQuery = new URLSearchParams({
+    origin: 'www.rolebrowse.com',
+    protocol: window.location.protocol,
+    channel,
+    referral: window.location.href,
+  });
+  const iframeSrc = `${FORM_DOMAIN}/form/${encodeURIComponent(FORM_ID)}/embed?${iframeQuery}`;
 
   useEffect(() => {
     const handler = (e: MessageEvent) => {
       if (e.origin !== FORM_DOMAIN) return;
+      if (e.source !== iframeRef.current?.contentWindow) return;
 
       const message = parseEmbedMessage(e.data);
       if (!message?.type) return;
@@ -138,7 +150,7 @@ export function ApplicationForm(_: Props) {
         const height = message.data?.height;
         if (typeof height !== 'number' || !Number.isFinite(height) || height <= 0) return;
 
-        const iframe = formMountRef.current?.querySelector('iframe');
+        const iframe = iframeRef.current;
         if (!iframe) return;
 
         iframe.style.height = `${Math.ceil(height) + FORM_HEIGHT_BUFFER}px`;
@@ -170,12 +182,22 @@ export function ApplicationForm(_: Props) {
 
         {/* ── EMBED FORM ───────────────────────────────────────────────────── */}
         <div
-          ref={formMountRef}
           id="cdd-form-mount"
           className="appform__embed"
           data-cddform={FORM_ID}
           data-origin="www.rolebrowse.com"
-        />
+        >
+          <iframe
+            ref={iframeRef}
+            id="QBWpFormIFrame_1"
+            src={iframeSrc}
+            title="Registration Form"
+            width="100%"
+            height="1000"
+            frameBorder="0"
+            scrolling="no"
+          />
+        </div>
 
         {/* ── ORIGINAL FORM (hidden, kept for reference) ───────────────────
         {hasErrors && (
