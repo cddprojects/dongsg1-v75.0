@@ -37,7 +37,7 @@ export const nav = {
 };
 
 export const hero = {
-  eyebrow: 'Part time and flexible role registration, Singapore',
+  eyebrow: 'Part time and flexible role exploration and registration, Singapore',
   heading: 'Looking for part time or flexible work in Singapore?',
   subheading:
     'Share a few basic details about the types of roles you are interested in. We will review your profile and be in touch if there is a possible fit.',
@@ -51,7 +51,7 @@ export const intro = {
   eyebrow: 'About Us',
   heading: 'Work that fits around your life',
   lead:
-    'Role Browse focuses on part time, shift based and flexible role categories. Register your basic details once. We will do the matching and follow up if there is a possible fit.',
+    'Role Browse focuses on part time, shift based and flexible role categories. Register your basic details once and we will be in touch if there is a possible fit.',
   points: [
     {
       heading: 'Work that fits your schedule',
@@ -271,7 +271,7 @@ export const faqs = [
 
 export const finalCta = {
   heading: 'Looking for part time or flexible work?',
-  body: 'Fill in a short form and we will follow up if there is a possible fit.',
+  body: 'Fill in a short form and we may be in touch if there is a possible fit.',
   cta: { label: 'Register Your Interest', href: '#application' },
   note: 'Registering does not guarantee a job, interview or employer response.',
 };

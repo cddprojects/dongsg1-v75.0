@@ -54,6 +54,7 @@ export function RoleCategoryCard({ category, selected, onToggle }: Props) {
         </div>
       </div>
 
+      <p className="category-card__example-label">Example role category</p>
       <h3 className="category-card__title">{category.title}</h3>
       <p className="category-card__desc">{category.description}</p>
 
@@ -61,7 +62,7 @@ export function RoleCategoryCard({ category, selected, onToggle }: Props) {
       <div className="category-card__rate" aria-label={`Approximate hourly rate: ${category.hourlyRange}`}>
         <span className="category-card__rate-label">~</span>
         <span className="category-card__rate-value">{category.hourlyRange}</span>
-        <span className="category-card__rate-note">market ref.</span>
+        <span className="category-card__rate-note">indicative range</span>
       </div>
 
       {/* Example role titles */}
