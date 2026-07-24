@@ -51,6 +51,7 @@ export function RoleCategoryExplorer({ selected, onToggle }: Props) {
         )}
 
         {/* Category grid */}
+        <p className="categories__example-label eyebrow">Example role categories</p>
         <div
           className="categories__grid"
           role="group"

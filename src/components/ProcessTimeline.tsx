@@ -41,8 +41,7 @@ export function ProcessTimeline() {
 
         <div className="process__note">
           <p className="disclaimer">
-            Not every profile will result in a referral or follow-up. Employer partners make their
-            own independent decisions. Role Browse is not the direct employer for referred opportunities.
+            Submitting the form does not guarantee that you will be contacted, shortlisted or offered employment.
           </p>
         </div>
       </div>

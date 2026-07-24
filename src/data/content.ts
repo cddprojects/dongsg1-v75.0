@@ -18,10 +18,10 @@ export const siteConfig = {
 export const seoMeta = {
   title: 'Role Browse Singapore | Part-Time & Flexible Role Categories',
   description:
-    'Looking for part time or flexible work in Singapore? Share a few basic details and we\'ll review your profile and follow up if there\'s a possible fit. No job or interview is guaranteed.',
+    'Explore part-time and flexible role categories in Singapore. Browse what is available, learn how registration works and tell us what type of opportunity interests you.',
   ogTitle: 'Role Browse Singapore | Part-Time & Flexible Role Categories',
   ogDescription:
-    'Looking for part time or flexible work in Singapore? Share your basic details. We will review your profile and be in touch if there is a fit.',
+    'Browse part-time and flexible role categories in Singapore. Register your interest and we may be in touch if there is a potentially relevant opportunity.',
   ogImage: '/og-image.png',
   twitterCard: 'summary_large_image',
 };
@@ -37,33 +37,33 @@ export const nav = {
 };
 
 export const hero = {
-  eyebrow: 'Part time and flexible role exploration and registration, Singapore',
-  heading: 'Looking for part time or flexible work in Singapore?',
+  eyebrow: 'Part-time and flexible role exploration and registration',
+  heading: 'Explore Part-Time and Flexible Work in Singapore',
   subheading:
-    'Share a few basic details about the types of roles you are interested in. We will review your profile and be in touch if there is a possible fit.',
-  primaryCta: { label: 'Register Your Interest', href: '#application' },
-  secondaryCta: { label: 'See Role Categories', href: '#role-categories' },
+    'Browse different role categories, learn how the registration process works and tell us what type of opportunity interests you. Role availability, responsibilities, working arrangements and eligibility requirements vary depending on the specific opportunity and hiring organisation.',
+  primaryCta: { label: 'Browse Role Categories', href: '#role-categories' },
+  secondaryCta: { label: 'Register Your Interest', href: '#application' },
   trustNote:
-    'Registering your interest does not guarantee a job, interview or employer response.',
+    'Registering your interest is not a job offer and does not guarantee placement.',
 };
 
 export const intro = {
   eyebrow: 'About Us',
   heading: 'Work that fits around your life',
   lead:
-    'Role Browse focuses on part time, shift based and flexible role categories. Register your basic details once and we will be in touch if there is a possible fit.',
+    'Different opportunities may offer different schedules, working arrangements and responsibilities. RoleBrowse helps you explore the available categories and understand what to consider before registering your interest.',
   points: [
     {
       heading: 'Work that fits your schedule',
-      body: 'Whether you are looking for weekends, evenings, short shifts or a regular part time arrangement, there are categories here that may suit you.',
+      body: 'Explore roles that may offer part-time, shift-based, weekend or flexible working arrangements. Available schedules depend on the specific opportunity.',
     },
     {
-      heading: 'We review and follow up where there\'s a fit',
-      body: 'Your details are reviewed against available employer partner categories. Where there\'s a possible fit with your availability and role interests, we\'ll be in touch.',
+      heading: 'Compare different work categories',
+      body: 'Review the general responsibilities and requirements of each category before selecting the areas that interest you.',
     },
     {
-      heading: 'Employer partners decide the details',
-      body: 'Each employer partner sets their own requirements, pay, shift arrangements and timelines. They decide who to follow up with. Role Browse is not the direct employer.',
+      heading: 'Understand what happens next',
+      body: 'Learn how registration works, what information may be requested and who confirms the final employment terms.',
     },
   ],
   transparencyStatement:
@@ -156,7 +156,8 @@ export const roleCategories: RoleCategory[] = [
 export const categoriesSection = {
   eyebrow: 'Role Categories',
   heading: 'Which type of work suits you?',
-  subheading: 'Pick the category that best describes the type of role you are looking for.',
+  subheading:
+    'Explore general role categories that may become available through participating hiring organisations. Specific openings, duties and working arrangements may change over time.',
 };
 
 export const categoryNote =
@@ -165,120 +166,120 @@ export const categoryNote =
 export const processSteps = [
   {
     number: '01',
-    heading: 'Fill in a short form',
-    body: 'Share your contact details and select the role types you are interested in. The form takes less than two minutes to complete.',
+    heading: 'Submit your interest',
+    body: 'Complete the interest form with your contact details, preferred role categories and current work eligibility.',
   },
   {
     number: '02',
-    heading: 'We review your profile',
-    body: 'Role Browse checks your profile against available employer partner categories. Not every profile will match an available category at the time of review.',
+    heading: 'Your information is reviewed',
+    body: 'Your submitted details and preferences are reviewed to understand which types of opportunities may be relevant.',
   },
   {
     number: '03',
-    heading: 'We pass it to a relevant employer partner',
-    body: 'If there\'s a possible fit, your details may be reviewed by a relevant employer partner. They decide independently whether to follow up.',
+    heading: 'Relevant information may be shared',
+    body: 'When a potentially relevant opportunity is available, you may be contacted with further information about the role, requirements and working arrangement.',
   },
   {
     number: '04',
-    heading: 'You\'ll hear back if there\'s a fit',
-    body: 'If an employer partner is interested, we\'ll be in touch. Timelines vary depending on role availability, requirements and suitability.',
+    heading: 'The hiring organisation confirms next steps',
+    body: 'The hiring organisation decides whether to proceed and confirms any interview, assessment, onboarding, compensation or employment arrangements.',
   },
 ];
 
 export const trustPoints = [
   {
     icon: 'shield-off',
-    heading: 'This is a registration of interest only',
-    body: 'Submitting this form does not guarantee a job, interview or employer response. It simply registers your interest for possible review.',
+    heading: "RoleBrowse's purpose",
+    body: 'RoleBrowse provides general role information and an interest-registration process. It does not guarantee that a specific opportunity will be available.',
   },
   {
     icon: 'credit-card',
-    heading: 'No fee to register',
-    body: 'There is no charge to submit this form. If anyone asks you to pay in connection with this registration, do not proceed.',
+    heading: 'Opportunities may change',
+    body: 'Role categories shown on the website are examples. Current availability, responsibilities and requirements may differ.',
   },
   {
     icon: 'lock',
-    heading: 'We do not ask for financial information',
-    body: 'We do not collect bank account details, payment details or financial information at any stage of this process.',
+    heading: 'Registration is not employment',
+    body: 'Submitting your interest does not create an employment relationship or guarantee an interview, placement or job offer.',
   },
   {
     icon: 'file-check',
-    heading: 'Your details are used as described',
-    body: 'Your information is used for profile review and possible follow up where there is a fit. It will not be used beyond what you have consented to.',
+    heading: 'Hiring decisions',
+    body: 'The relevant hiring organisation is responsible for selection decisions and confirming the final role details.',
   },
   {
     icon: 'clipboard-list',
-    heading: 'Only role relevant questions',
-    body: 'The form asks for basic role relevant information only. We do not ask for NRIC, bank details or other unnecessary personal information.',
+    heading: 'Compensation and arrangements',
+    body: 'Pay, working hours, location, contract type and payment schedule must be confirmed before accepting an opportunity.',
   },
   {
     icon: 'eye',
-    heading: 'The process is described clearly on this page',
-    body: 'What happens after you register is explained in the steps above. There are no additional steps or obligations not described here.',
+    heading: 'Protect your information',
+    body: 'Only provide information required for the registration process. Do not share passwords, banking credentials or unrelated sensitive information.',
   },
 ];
 
 export const faqs = [
   {
     id: 'faq-1',
-    question: 'Is Role Browse the employer?',
+    question: 'Is RoleBrowse an employer?',
     answer:
-      'Not necessarily. Role Browse collects your role interest and, where there\'s a possible fit, may refer your details to relevant employer partners, but employer partners are independent organisations that make their own hiring decisions. Role Browse is not automatically the direct employer for every opportunity.',
+      'RoleBrowse provides role-category information and allows individuals to register their interest. Where a role is offered by another hiring organisation, that organisation will confirm the responsibilities, selection process and employment terms.',
   },
   {
     id: 'faq-2',
-    question: 'Does submitting the form guarantee a job or interview?',
+    question: 'Does registering guarantee me a job?',
     answer:
-      'No. Submitting this form does not guarantee a job offer, interview, employer response or placement. Your profile is collected for possible review and referral only. Outcomes depend on employer partner availability, role requirements and suitability.',
+      'No. Registration allows you to share your interests and preferences. It does not guarantee contact, an interview, placement or employment.',
   },
   {
     id: 'faq-3',
-    question: 'What role categories can I indicate interest in?',
+    question: 'Are all the roles shown currently available?',
     answer:
-      'You can indicate interest in customer support and service, retail operations and management, hospitality and operations, logistics and supply chain, administration and business support, ecommerce and digital operations, and marketing and communications. Many of these categories include part time and flexible arrangements. Specific duties, pay and schedules are set by each employer partner.',
+      'The website presents role categories that may become available. Specific openings and requirements can change, so availability must be confirmed before proceeding.',
   },
   {
     id: 'faq-4',
-    question: 'Will my details be shared with employers?',
+    question: 'Who decides whether I am selected?',
     answer:
-      'Only where there\'s a possible fit and only with your consent. Your consent is collected through the form. We won\'t share your information without it or beyond what is described in the Privacy Policy.',
+      'Selection decisions are made according to the requirements of the specific opportunity and the relevant hiring organisation.',
   },
   {
     id: 'faq-5',
-    question: 'Can non-Singapore Citizens apply?',
+    question: 'Who confirms the compensation?',
     answer:
-      'At this time, Role Browse\'s employer partner categories in Singapore are open to Singapore Citizens and Permanent Residents only. Work pass holders, including Employment Pass, S Pass and Work Permit holders, are not currently eligible to register through this platform. This may expand in future. If you are a Singapore Citizen or Permanent Resident, you are welcome to register your interest.',
+      'The hiring organisation will confirm the final rate, payment schedule, working hours and engagement terms before you accept an opportunity.',
   },
   {
     id: 'faq-6',
-    question: 'How will I be contacted after applying?',
+    question: 'Is there a fee to register?',
     answer:
-      'If there is a possible fit with an available category, we will follow up using the contact details you provided. Not every submission results in follow up. Timelines vary depending on employer partner availability and role requirements.',
+      'There is no fee to submit your interest through RoleBrowse.',
   },
   {
     id: 'faq-7',
-    question: 'Does Role Browse charge applicants?',
+    question: 'How will I be contacted?',
     answer:
-      'No. This service is free. If anyone asks you to pay in connection with this application, please stop and contact us straight away.',
+      'If there is a potentially relevant opportunity, you may be contacted using the email address or telephone number provided in your registration.',
   },
   {
     id: 'faq-8',
-    question: 'Can I choose a specific employer?',
+    question: 'How will my information be used?',
     answer:
-      'You\'re indicating interest in role categories rather than specific employers. Employer partners are not named at the application stage. If your details are referred to an employer partner, more information will be shared at that point.',
+      'Information submitted through the form will be handled according to the RoleBrowse Privacy Policy and used for the purposes described when you register.',
   },
 ];
 
 export const finalCta = {
-  heading: 'Looking for part time or flexible work?',
-  body: 'Fill in a short form and we may be in touch if there is a possible fit.',
+  heading: 'Ready to explore your role options?',
+  body: 'Browse the available role categories and register your interest when you are ready.',
   cta: { label: 'Register Your Interest', href: '#application' },
   note: 'Registering does not guarantee a job, interview or employer response.',
 };
 
 export const footer = {
   description:
-    'Role Browse focuses on part time, flexible and shift based role categories in Singapore. We connect candidate profiles with relevant employer partners. No job or interview is guaranteed.',
+    'RoleBrowse is a role-exploration and interest-registration website for individuals considering part-time and flexible work opportunities in Singapore. Role availability and employment terms depend on the relevant hiring organisation.',
   disclaimer:
     'Role Browse is not the direct employer for every opportunity. Employer partners make their own hiring decisions. Submission does not guarantee a job, interview, placement or income.',
   links: [
@@ -296,8 +297,8 @@ export const footer = {
 export const formConfig = {
   heading: 'Register your interest',
   intro:
-    'Share your contact details and the types of roles you are interested in.',
-  introLine2: 'We will be in touch if there is a possible fit.',
+    'Tell us which role categories interest you and provide the information needed to review your registration.',
+  introLine2: 'We may contact you when a potentially relevant opportunity is available.',
   trustNote:
     'Pay, schedules and specific duties are confirmed by the employer partner. We will ask any additional questions if your profile is a possible match.',
   consentText:

@@ -191,7 +191,7 @@ export function ApplicationForm(_: Props) {
             ref={iframeRef}
             id="QBWpFormIFrame_1"
             src={iframeSrc}
-            title="Registration Form"
+            title="Your interest details"
             width="100%"
             height="1000"
             frameBorder="0"
@@ -335,7 +335,7 @@ export function ApplicationForm(_: Props) {
         ── END ORIGINAL FORM ──────────────────────────────────────────────── */}
 
         <p className="disclaimer appform__submit-note">
-          By submitting you agree to the consent statement above. No job or interview is guaranteed.
+          By submitting this form, you confirm that the information provided is accurate and that you have reviewed the Privacy Policy. Registration does not guarantee contact, shortlisting, placement or employment.
         </p>
       </div>
     </section>

@@ -77,9 +77,13 @@ export function RoleCategoryCard({ category, selected, onToggle }: Props) {
         ))}
       </div>
 
+      <p className="category-card__disclaimer">
+        Actual responsibilities, requirements and availability depend on the specific opportunity.
+      </p>
+
       <div className="category-card__action">
         <span className="category-card__action-label">
-          {selected ? '✓ Selected' : 'Tap to select'}
+          {selected ? '✓ Selected' : 'Select This Category'}
         </span>
       </div>
     </div>
