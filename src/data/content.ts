@@ -1,25 +1,25 @@
 ﻿/* ============================================================
-   ROLE BROWSE SINGAPORE — Content Data File
+   ALIGN NIMBLY SINGAPORE — Content Data File
    All editable page content lives here.
    Update this file to change copy, categories, FAQs, etc.
    ============================================================ */
 
 export const siteConfig = {
-  brandName: 'Role Browse',
+  brandName: 'Align Nimbly',
   tagline: 'Employer-partner opportunity registration',
   market: 'Singapore',
   language: 'en',
-  contactEmail: 'hello@rolebrowse.com', // TODO: replace with actual contact email before launch
+  contactEmail: 'hello@alignnimbly.com', // TODO: replace with actual contact email before launch
   privacyPolicyUrl: '/privacy-policy',
   termsOfUseUrl: '/terms-of-use',
-  canonicalUrl: 'https://www.rolebrowse.com/rolebrowse-singapore-employer-partner-role-categories', // TODO: replace with live URL
+  canonicalUrl: 'https://www.alignnimbly.com/alignnimbly-singapore-employer-partner-role-categories', // TODO: replace with live URL
 };
 
 export const seoMeta = {
-  title: 'Role Browse Singapore | Part-Time & Flexible Role Categories',
+  title: 'Align Nimbly Singapore | Part-Time & Flexible Role Categories',
   description:
     'Explore part-time and flexible role categories in Singapore. Browse what is available, learn how registration works and tell us what type of opportunity interests you.',
-  ogTitle: 'Role Browse Singapore | Part-Time & Flexible Role Categories',
+  ogTitle: 'Align Nimbly Singapore | Part-Time & Flexible Role Categories',
   ogDescription:
     'Browse part-time and flexible role categories in Singapore. Register your interest and we may be in touch if there is a potentially relevant opportunity.',
   ogImage: '/og-image.png',
@@ -51,7 +51,7 @@ export const intro = {
   eyebrow: 'About Us',
   heading: 'Work that fits around your life',
   lead:
-    'Different opportunities may offer different schedules, working arrangements and responsibilities. RoleBrowse helps you explore the available categories and understand what to consider before registering your interest.',
+    'Different opportunities may offer different schedules, working arrangements and responsibilities. AlignNimbly helps you explore the available categories and understand what to consider before registering your interest.',
   points: [
     {
       heading: 'Work that fits your schedule',
@@ -189,8 +189,8 @@ export const processSteps = [
 export const trustPoints = [
   {
     icon: 'shield-off',
-    heading: "RoleBrowse's purpose",
-    body: 'RoleBrowse provides general role information and an interest-registration process. It does not guarantee that a specific opportunity will be available.',
+    heading: "AlignNimbly's purpose",
+    body: 'AlignNimbly provides general role information and an interest-registration process. It does not guarantee that a specific opportunity will be available.',
   },
   {
     icon: 'credit-card',
@@ -222,9 +222,9 @@ export const trustPoints = [
 export const faqs = [
   {
     id: 'faq-1',
-    question: 'Is Role Browse the employer?',
+    question: 'Is Align Nimbly the employer?',
     answer:
-      'Not necessarily. Role Browse collects your role interest and, where there\'s a possible fit, may refer your details to relevant employer partners, but employer partners are independent organisations that make their own hiring decisions. Role Browse is not automatically the direct employer for every opportunity.',
+      'Not necessarily. Align Nimbly collects your role interest and, where there\'s a possible fit, may refer your details to relevant employer partners, but employer partners are independent organisations that make their own hiring decisions. Align Nimbly is not automatically the direct employer for every opportunity.',
   },
   {
     id: 'faq-2',
@@ -248,7 +248,7 @@ export const faqs = [
     id: 'faq-5',
     question: 'Can non-Singapore Citizens apply?',
     answer:
-      'At this time, Role Browse\'s employer partner categories in Singapore are open to Singapore Citizens and Permanent Residents only. Work pass holders, including Employment Pass, S Pass and Work Permit holders, are not currently eligible to register through this platform. This may expand in future. If you are a Singapore Citizen or Permanent Resident, you are welcome to register your interest.',
+      'At this time, Align Nimbly\'s employer partner categories in Singapore are open to Singapore Citizens and Permanent Residents only. Work pass holders, including Employment Pass, S Pass and Work Permit holders, are not currently eligible to register through this platform. This may expand in future. If you are a Singapore Citizen or Permanent Resident, you are welcome to register your interest.',
   },
   {
     id: 'faq-6',
@@ -258,7 +258,7 @@ export const faqs = [
   },
   {
     id: 'faq-7',
-    question: 'Does Role Browse charge applicants?',
+    question: 'Does Align Nimbly charge applicants?',
     answer:
       'No. This service is free. If anyone asks you to pay in connection with this application, please stop and contact us straight away.',
   },
@@ -279,9 +279,9 @@ export const finalCta = {
 
 export const footer = {
   description:
-    'RoleBrowse is a role-exploration and interest-registration website for individuals considering part-time and flexible work opportunities in Singapore. Role availability and employment terms depend on the relevant hiring organisation.',
+    'AlignNimbly is a role-exploration and interest-registration website for individuals considering part-time and flexible work opportunities in Singapore. Role availability and employment terms depend on the relevant hiring organisation.',
   disclaimer:
-    'Role Browse is not the direct employer for every opportunity. Employer partners make their own hiring decisions. Submission does not guarantee a job, interview, placement or income.',
+    'Align Nimbly is not the direct employer for every opportunity. Employer partners make their own hiring decisions. Submission does not guarantee a job, interview, placement or income.',
   links: [
     { label: 'Role Categories', href: '#role-categories' },
     { label: 'How It Works', href: '#how-it-works' },

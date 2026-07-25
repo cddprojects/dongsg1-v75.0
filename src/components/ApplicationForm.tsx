@@ -116,7 +116,7 @@ export function ApplicationForm(_: Props) {
   //   setStatus('submitting');
   //   try {
   //     await new Promise<void>((resolve) => setTimeout(resolve, 1200));
-  //     sessionStorage.setItem('rolebrowse_submitted_categories', JSON.stringify(form.roleCategories));
+  //     sessionStorage.setItem('alignnimbly_submitted_categories', JSON.stringify(form.roleCategories));
   //     navigate('/thank-you');
   //   } catch {
   //     setStatus('error');
@@ -131,7 +131,7 @@ export function ApplicationForm(_: Props) {
     ? 'google_ad'
     : pageQuery.get('utm_source') ?? '';
   const iframeQuery = new URLSearchParams({
-    origin: 'www.rolebrowse.com',
+    origin: 'www.alignnimbly.com',
     protocol: window.location.protocol,
     channel,
     referral: window.location.href,
@@ -185,7 +185,7 @@ export function ApplicationForm(_: Props) {
           id="cdd-form-mount"
           className="appform__embed"
           data-cddform={FORM_ID}
-          data-origin="www.rolebrowse.com"
+          data-origin="www.alignnimbly.com"
         >
           <iframe
             ref={iframeRef}

@@ -8,7 +8,7 @@ export function ThankYouPage() {
 
   useEffect(() => {
     // Read submitted categories from sessionStorage (set by the form on submission)
-    const stored = sessionStorage.getItem('rolebrowse_submitted_categories');
+    const stored = sessionStorage.getItem('alignnimbly_submitted_categories');
     if (stored) {
       const ids: string[] = JSON.parse(stored);
       const labels = ids.map(

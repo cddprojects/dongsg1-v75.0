@@ -73,8 +73,8 @@ export function Header() {
     <header ref={headerRef} className={`header${scrolled ? ' header--scrolled' : ''}`} role="banner">
       <div className="container header__inner">
         {/* Logo / Wordmark */}
-        <a href="/" className="header__logo" aria-label="Role Browse home">
-          <span className="header__logo-word">Role Browse</span>
+        <a href="/" className="header__logo" aria-label="Align Nimbly home">
+          <span className="header__logo-word">Align Nimbly</span>
           <span className="header__logo-tag">Singapore</span>
         </a>
 
