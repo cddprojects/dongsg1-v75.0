@@ -54,7 +54,6 @@ export function RoleCategoryCard({ category, selected, onToggle }: Props) {
         </div>
       </div>
 
-      <p className="category-card__example-label">Example role category</p>
       <h3 className="category-card__title">{category.title}</h3>
       <p className="category-card__desc">{category.description}</p>
 
@@ -76,10 +75,6 @@ export function RoleCategoryCard({ category, selected, onToggle }: Props) {
           <span key={skill} className="category-card__skill-tag">{skill}</span>
         ))}
       </div>
-
-      <p className="category-card__disclaimer">
-        Actual responsibilities, requirements and availability depend on the specific opportunity.
-      </p>
 
       <div className="category-card__action">
         <span className="category-card__action-label">
