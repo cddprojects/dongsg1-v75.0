@@ -23,7 +23,7 @@ export function FAQAccordion() {
             Frequently asked questions
           </h2>
           <p className="section-subheading faq__subheading">
-            Clear answers to common questions about Role Browse and this application process.
+            Clear answers to common questions about Align Nimbly and this application process.
           </p>
         </div>
 

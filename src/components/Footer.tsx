@@ -24,8 +24,8 @@ export function Footer() {
         <div className="footer__main">
           {/* Brand column */}
           <div className="footer__brand">
-            <a href="/" className="footer__logo" aria-label="Role Browse home">
-              <span className="footer__logo-word">Role Browse</span>
+            <a href="/" className="footer__logo" aria-label="Align Nimbly home">
+              <span className="footer__logo-word">Align Nimbly</span>
               <span className="footer__logo-tag">Singapore</span>
             </a>
             <p className="footer__description">{footer.description}</p>
@@ -66,7 +66,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="footer__bottom">
           <p className="footer__copyright">
-            © {year} Role Browse. Operated by SKILLS LINK LTD.
+            © {year} Align Nimbly. Operated by SKILLS LINK LTD.
           </p>
           <div className="footer__legal-row">
             {footer.legalLinks.map((link, i) => (
