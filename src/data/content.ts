@@ -41,8 +41,8 @@ export const hero = {
   heading: 'Explore Part-Time and Flexible Work in Singapore',
   subheading:
     'Browse different role categories, learn how the registration process works and tell us what type of opportunity interests you. Role availability, responsibilities, working arrangements and eligibility requirements vary depending on the specific opportunity and hiring organisation.',
-  primaryCta: { label: 'Browse Role Categories', href: '#role-categories' },
-  secondaryCta: { label: 'Register Your Interest', href: '#application' },
+  primaryCta: { label: 'Register Your Interest', href: '#application' },
+  secondaryCta: { label: 'Browse Role Categories', href: '#role-categories' },
   trustNote:
     'Registering your interest is not a job offer and does not guarantee placement.',
 };
