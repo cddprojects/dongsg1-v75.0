@@ -222,51 +222,51 @@ export const trustPoints = [
 export const faqs = [
   {
     id: 'faq-1',
-    question: 'Is RoleBrowse an employer?',
+    question: 'Is Role Browse the employer?',
     answer:
-      'RoleBrowse provides role-category information and allows individuals to register their interest. Where a role is offered by another hiring organisation, that organisation will confirm the responsibilities, selection process and employment terms.',
+      'Not necessarily. Role Browse collects your role interest and, where there\'s a possible fit, may refer your details to relevant employer partners, but employer partners are independent organisations that make their own hiring decisions. Role Browse is not automatically the direct employer for every opportunity.',
   },
   {
     id: 'faq-2',
-    question: 'Does registering guarantee me a job?',
+    question: 'Does submitting the form guarantee a job or interview?',
     answer:
-      'No. Registration allows you to share your interests and preferences. It does not guarantee contact, an interview, placement or employment.',
+      'No. Submitting this form does not guarantee a job offer, interview, employer response or placement. Your profile is collected for possible review and referral only. Outcomes depend on employer partner availability, role requirements and suitability.',
   },
   {
     id: 'faq-3',
-    question: 'Are all the roles shown currently available?',
+    question: 'What role categories can I indicate interest in?',
     answer:
-      'The website presents role categories that may become available. Specific openings and requirements can change, so availability must be confirmed before proceeding.',
+      'You can indicate interest in customer support and service, retail operations and management, hospitality and operations, logistics and supply chain, administration and business support, ecommerce and digital operations, and marketing and communications. Many of these categories include part time and flexible arrangements. Specific duties, pay and schedules are set by each employer partner.',
   },
   {
     id: 'faq-4',
-    question: 'Who decides whether I am selected?',
+    question: 'Will my details be shared with employers?',
     answer:
-      'Selection decisions are made according to the requirements of the specific opportunity and the relevant hiring organisation.',
+      'Only where there\'s a possible fit and only with your consent. Your consent is collected through the form. We won\'t share your information without it or beyond what is described in the Privacy Policy.',
   },
   {
     id: 'faq-5',
-    question: 'Who confirms the compensation?',
+    question: 'Can non-Singapore Citizens apply?',
     answer:
-      'The hiring organisation will confirm the final rate, payment schedule, working hours and engagement terms before you accept an opportunity.',
+      'At this time, Role Browse\'s employer partner categories in Singapore are open to Singapore Citizens and Permanent Residents only. Work pass holders, including Employment Pass, S Pass and Work Permit holders, are not currently eligible to register through this platform. This may expand in future. If you are a Singapore Citizen or Permanent Resident, you are welcome to register your interest.',
   },
   {
     id: 'faq-6',
-    question: 'Is there a fee to register?',
+    question: 'How will I be contacted after applying?',
     answer:
-      'There is no fee to submit your interest through RoleBrowse.',
+      'If there is a possible fit with an available category, we may follow up using the contact details you provided. Not every submission results in follow up. Timelines vary depending on employer partner availability and role requirements.',
   },
   {
     id: 'faq-7',
-    question: 'How will I be contacted?',
+    question: 'Does Role Browse charge applicants?',
     answer:
-      'If there is a potentially relevant opportunity, you may be contacted using the email address or telephone number provided in your registration.',
+      'No. This service is free. If anyone asks you to pay in connection with this application, please stop and contact us straight away.',
   },
   {
     id: 'faq-8',
-    question: 'How will my information be used?',
+    question: 'Can I choose a specific employer?',
     answer:
-      'Information submitted through the form will be handled according to the RoleBrowse Privacy Policy and used for the purposes described when you register.',
+      'You\'re indicating interest in role categories rather than specific employers. Employer partners are not named at the application stage. If your details are referred to an employer partner, more information will be shared at that point.',
   },
 ];
 
