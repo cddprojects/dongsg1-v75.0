@@ -40,7 +40,7 @@ export const hero = {
   eyebrow: 'Part-time and flexible role exploration and registration',
   heading: 'Explore Part-Time and Flexible Work in Singapore',
   subheading:
-    'Browse different role categories, learn how the registration process works and tell us what type of opportunity interests you. Role availability, responsibilities, working arrangements and eligibility requirements vary depending on the specific opportunity and hiring organisation.',
+    'Browse role categories, understand how registration works and share what type of work suits you. Role availability and terms depend on the specific opportunity and hiring organisation.',
   primaryCta: { label: 'Register Your Interest', href: '#application' },
   secondaryCta: { label: 'Browse Role Categories', href: '#role-categories' },
   trustNote:
