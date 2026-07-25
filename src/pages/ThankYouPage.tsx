@@ -39,7 +39,7 @@ export function ThankYouPage() {
           {/* Body */}
           <p className="thankyou__body">
             We have received your details. If there is a possible fit with an available employer
-            partner category, we will be in touch using the contact details you provided.
+            partner category, we may be in touch using the contact details you provided.
           </p>
           <p className="thankyou__note">
             Not every submission will result in a follow up. Timelines vary by employer partner
